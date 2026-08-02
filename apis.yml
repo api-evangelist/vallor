@@ -1,8 +1,30 @@
 aid: vallor
 name: Vallor
-description: Vallor is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vallor (Board AI, Inc.) is an AI coworker for procurement, legal, and sales
+  teams that puts contracts on autopilot. Val reads every contract across the
+  existing stack, drafts redlines against a playbook, flags risks, monitors
+  obligations, renewals, SLAs, and rebates against live ERP and AP data, and
+  answers plain-English questions with citations back to the source clause.
+  It connects to 1,000+ systems including SAP, NetSuite, Snowflake, Salesforce,
+  Ironclad, Icertis, DocuSign, and Slack, and ships a first-party Claude Code /
+  Cowork plugin marketplace with 32 agent skills and 9 background agents for
+  contract management and strategic sourcing. SOC 2 Type II audited and GDPR
+  compliant, with customer data staying in the customer tenant. Backed by
+  Bloomberg Beta.
 url: https://raw.githubusercontent.com/api-evangelist/vallor/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://utfs.io/f/4334ef13-0077-4cb2-9547-d3ee878612a5-umqjto.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Contract Management
+- Contract Lifecycle Management
+- Procurement
+- Legal
+- Sales
+- Artificial Intelligence
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.vallor.ai/
+- type: Blog
+  url: https://vallor.ai/blog
+- type: PrivacyPolicy
+  url: https://vallor.ai/privacy
+- type: TermsOfService
+  url: https://vallor.ai/terms
+- type: GitHubOrganization
+  url: https://github.com/BoardAI
+- type: TrustCenter
+  url: security/vallor-trust-center.yml
+- type: Compliance
+  url: https://www.vallor.ai/trust
+- type: DomainSecurity
+  url: security/vallor-domain-security.yml
+- type: LLMsTxt
+  url: llms/vallor-llms.txt
+- type: Packages
+  url: packages/vallor-packages.yml
+- type: AgentSkill
+  url: skills/_index.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 38
+  pass: local-v1

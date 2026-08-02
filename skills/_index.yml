@@ -1,0 +1,227 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/BoardAI/vallor-plugins
+publisher: Vallor (Board AI, Inc.) - first-party Claude Code / Cowork plugin marketplace, plugin v2.0.0
+install: /plugin marketplace add boardai/vallor-plugins
+notes: Provider-published Agent Skills saved verbatim from the vallor plugin (32 skills). The plugin also
+  ships 9 background agents (category-refresh, deal-debrief, market-intel-watcher, playbook-monitor, renewal-and-obligation-watcher,
+  renewal-watcher, savings-tracker, sourcing-event-debrief, supplier-risk-watcher) not copied here.
+skills:
+- file: vallor-7-step-negotiation.md
+  name: 7-step-negotiation
+  description: Walks a category manager or sourcing manager through the classic 7-step negotiation process
+    for a specific deal — Prepare, Set Targets, Build the Concession Plan, Open, Bargain, Close, Measure.
+    Each step produces an artifact (target sheet, opening position, concession log, post-mortem). Persists
+    sta...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/7-step-negotiation/SKILL.md
+- file: vallor-amendment-history.md
+  name: amendment-history
+  description: Trace how a contract has changed across its base agreement and all amendments — either
+    a summary of all changes over time, or a provision trace for a specific clause. Use when the user
+    says "what changed in this contract over time", "show me the amendment history", "where's the latest
+    [clause]", "ho...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/amendment-history/SKILL.md
+- file: vallor-category-strategy.md
+  name: category-strategy
+  description: Builds a board-ready Category Strategy Playbook for ONE spend category with deep external
+    research. Triangulates market size, CAGR, supplier landscape, cost structure, PESTLE, Porter's 5,
+    risk register, and produces SMART goals, opportunity register, initiative pipeline, and a 3-year roadmap.
+    Output...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/category-strategy/SKILL.md
+- file: vallor-cold-start-interview.md
+  name: cold-start-interview
+  description: Run the cold-start interview to learn your commercial contracts practice and write your
+    team practice profile. Use on first use of the plugin, when `~/.claude/plugins/config/vallor/CLAUDE.md`
+    is missing or still contains template placeholders, or when the user says "set up the plugin", "configure
+    co...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/cold-start-interview/SKILL.md
+- file: vallor-contract-approval-deck.md
+  name: contract-approval-deck
+  description: Generates a board-grade PPTX deck for the contract approval committee — cover, recommendation,
+    financial summary, deviations table, risk register, decision-ask slide. 6-10 slides, monotone, no
+    decoration. Uses the plugin's /design system. Use when the user says "approval deck", "deck for the
+    committ...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-approval-deck/SKILL.md
+- file: vallor-contract-brief.md
+  name: contract-brief
+  description: Captures the business intent behind a contract before any drafting happens. A short intake
+    interview — who, what, why, when, how much, what's the risk tolerance — and produces a one-page Contract
+    Brief that every downstream skill (drafting, redlining, approval deck, exec summary) reads. Use when
+    the...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-brief/SKILL.md
+- file: vallor-contract-dashboard.md
+  name: contract-dashboard
+  description: Generates a multi-tab interactive HTML dashboard across a portfolio of contracts — severity
+    counts, renewal timeline, deviation heat map, spend exposure, cancel-by calendar, supplier concentration.
+    Print-friendly tabs. Self-contained. Use when the user says "contract dashboard", "portfolio view",
+    "d...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-dashboard/SKILL.md
+- file: vallor-contract-exec-summary.md
+  name: contract-exec-summary
+  description: Produces a one-page executive summary of a contract or contract review — for a CEO, CFO,
+    GM, or business owner who needs to decide in 90 seconds whether to sign, push back, or escalate. Outputs
+    a single-page markdown (with PDF/PPTX export options) using the plugin's /design system. Use when
+    the user...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-exec-summary/SKILL.md
+- file: vallor-contract-interactive-html.md
+  name: contract-interactive-html
+  description: Generates an interactive HTML view of a contract review with clause drill-down, severity
+    filters, side-by-side comparison (their language vs proposed), and inline comment threads. Self-contained,
+    vanilla JS, no frameworks. Use when the user says "interactive report", "interactive html", "let me
+    clic...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-interactive-html/SKILL.md
+- file: vallor-contract-prep.md
+  name: contract-prep
+  description: Drafts a first-pass contract document from a populated Contract Brief — pulls the matching
+    template (MSA, SOW, NDA, order form, amendment), inserts the playbook's standard positions, hardcodes
+    the must-haves, and pre-positions the give-ups as fallback language. Produces a clean draft ready
+    for /vall...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-prep/SKILL.md
+- file: vallor-contract-redline-docx.md
+  name: contract-redline-docx
+  description: Produces a Word .docx with tracked changes (Word-native revision marks) of a contract —
+    the file you actually send to opposing counsel. Wraps the output of /vallor:contract-redline (or builds
+    the redline from scratch if no prior run exists), invokes python-docx + tracked-changes XML, and emits
+    a rev...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-redline-docx/SKILL.md
+- file: vallor-contract-redline.md
+  name: contract-redline
+  description: Produces a markdown redline of a contract against the practice profile playbook — side-by-side
+    or unified diff, with proposed insertions, deletions, and explanatory comments tagged by severity.
+    The text-first counterpart to /vallor:contract-redline-docx (which produces a tracked-changes .docx
+    for se...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-redline/SKILL.md
+- file: vallor-contract-report-html.md
+  name: contract-report-html
+  description: Generates a polished, printable, standalone HTML report from a contract review, redline,
+    or amendment-history output. Self-contained — embedded CSS, no external dependencies, board-ready
+    monotone design. Print-friendly. Use when the user says "report", "html report", "create the report",
+    "polished r...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/contract-report-html/SKILL.md
+- file: vallor-customize.md
+  name: customize
+  description: Guided customization of your commercial contracts practice profile — change one thing without
+    re-running the whole cold-start interview. Adjust risk posture, escalation contacts, playbook positions,
+    NDA triage preferences, house style, review preferences, or matter workspace paths. Use when the user...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/customize/SKILL.md
+- file: vallor-design.md
+  name: design
+  description: Visual design standards for every artifact this plugin produces — HTML reports, dashboards,
+    PPTX approval decks, redline .docx files, stakeholder summaries. Locks output to a trusted, monotone,
+    no-gradient look. Load this skill BEFORE generating any visual deliverable. Use when the user says
+    "make t...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/design/SKILL.md
+- file: vallor-direct-materials-evaluation.md
+  name: direct-materials-evaluation
+  description: 'Specialist evaluation for direct-materials RFP responses — raw materials, components,
+    packaging materials. Applies a manufacturing operations and supply chain resilience lens: supplier
+    capability + capacity, technical specs + quality systems, supply chain + logistics, cost structure
+    + TCO, partnersh...'
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/direct-materials-evaluation/SKILL.md
+- file: vallor-escalation-flagger.md
+  name: escalation-flagger
+  description: Route a contract issue to the right approver per the escalation matrix in `~/.claude/plugins/config/vallor/CLAUDE.md`,
+    and draft the ask. Use when the user says "who needs to approve this", "escalate this", "does this
+    need GC sign-off", "route this for approval", or when another skill finds an issue...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/escalation-flagger/SKILL.md
+- file: vallor-matter-workspace.md
+  name: matter-workspace
+  description: Manage matter workspaces — new, list, switch, close, or detach (practice-level). Use when
+    a multi-client practitioner needs to create a matter, switch the active matter, list matters, archive
+    a matter, or detach to practice-level context, or when another skill needs to know which matter it's
+    working...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/matter-workspace/SKILL.md
+- file: vallor-nda-review.md
+  name: nda-review
+  description: 'Reference: fast triage of inbound NDAs into GREEN / YELLOW / RED so the team only spends
+    lawyer time on the ones that need it. Built for sales and BD to self-serve before pinging legal. Loaded
+    by /vallor:review when an NDA is detected.'
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/nda-review/SKILL.md
+- file: vallor-negotiation-report.md
+  name: negotiation-report
+  description: Produces a research-backed negotiation prep packet for a specific contract or renewal —
+    market data, supplier financial health, competitive alternatives, prioritized levers, concession trade-off
+    matrix, red lines, and three ready-to-send email drafts. Self-contained interactive HTML with six
+    tabs an...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/negotiation-report/SKILL.md
+- file: vallor-renewal-tracker.md
+  name: renewal-tracker
+  description: Show contracts with cancel-by deadlines coming up and warn before notice windows close,
+    working from a maintained renewal register. Use when the user asks "what's renewing soon", "what renewals
+    are due", "did we miss a cancellation window", "add this to the renewal tracker", or on a scheduled
+    basis....
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/renewal-tracker/SKILL.md
+- file: vallor-review-proposals.md
+  name: review-proposals
+  description: Review and approve (or reject) pending playbook update proposals from the playbook-monitor
+    agent and apply approved changes to the practice profile. Use when the playbook-monitor agent has
+    surfaced proposals, when the user says "review playbook proposals", "what playbook updates are pending",
+    or wan...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/review-proposals/SKILL.md
+- file: vallor-review.md
+  name: review
+  description: Review a vendor agreement, NDA, or SaaS subscription against your playbook. Identifies
+    the agreement structure from titles, routes to the right review skill (vendor-agreement-review, nda-review,
+    saas-msa-review), and integrates the output into a single memo. Use when the user says "review this
+    contr...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/review/SKILL.md
+- file: vallor-rfq-analysis.md
+  name: rfq-analysis
+  description: Evaluates returned RFQ/RFP responses against the original ask using weighted scoring, total
+    cost of ownership modeling, and supplier risk flags. Produces a multi-tab interactive HTML dashboard
+    (Overview · Scoring · TCO · Risk · Comparison · Recommendation), an Excel scoring matrix, and an executive
+    ...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/rfq-analysis/SKILL.md
+- file: vallor-rfq-creation.md
+  name: rfq-creation
+  description: Generates a complete multi-sheet Excel RFQ workbook tailored to a user-specified good,
+    service, or hybrid engagement. Plus an HTML cover report summarizing the RFP for stakeholder distribution.
+    Two-phase intake (initial + informed after silent research) so options are category-specific. 7 sheets
+    sta...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/rfq-creation/SKILL.md
+- file: vallor-saas-msa-review.md
+  name: saas-msa-review
+  description: 'Reference: review of SaaS subscription agreements with attention to the terms that matter
+    most in subscription deals — auto-renewal mechanics, price escalation, data portability, uptime SLAs,
+    and subprocessor rights. Loaded by /vallor:review when a SaaS or subscription agreement is detected.'
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/saas-msa-review/SKILL.md
+- file: vallor-sourcing-strategy.md
+  name: sourcing-strategy
+  description: 'Per-event sourcing strategy: incumbent vs competitive bidding, bid-floor decision, evaluation
+    weights, sourcing channel (RFI → RFP, direct RFQ, negotiation-only), timeline, governance, communications
+    plan. Translates a category-strategy playbook into the actual event plan. Use when the user says "so...'
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/sourcing-strategy/SKILL.md
+- file: vallor-spend-analysis.md
+  name: spend-analysis
+  description: Runs a McKinsey-grade spend analysis on a transactional spend file (CSV / Excel / Coupa
+    export). Performs schema inference, data quality assessment, normalization (supplier name crosswalk,
+    category derivation, FX conversion), core metrics (total, Pareto, HHI, tail), deep dive (opportunities,
+    risks),...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/spend-analysis/SKILL.md
+- file: vallor-stakeholder-summary.md
+  name: stakeholder-summary
+  description: Translates a contract review into a summary the business stakeholder will actually read.
+    Not a legal memo — a two-minute answer to "can I sign this and what do I need to know." Use when user
+    says "summarize for the business", "write this up for [stakeholder]", "explain this to procurement",
+    "non-leg...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/stakeholder-summary/SKILL.md
+- file: vallor-vendor-agreement-review.md
+  name: vendor-agreement-review
+  description: 'Reference: review of an inbound vendor agreement against the team playbook in `~/.claude/plugins/config/vallor/CLAUDE.md`.
+    Flags deviations, assesses risk, generates specific redline language, and routes to the right approver.
+    Loaded by /vallor:review when a vendor MSA, services agreement, or simila...'
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/vendor-agreement-review/SKILL.md
+- file: vallor-vendor-analysis.md
+  name: vendor-analysis
+  description: Deep-dive analysis of a single vendor — financial health (10-Q / 10-K / D&B, ratings, recent
+    earnings), operational performance (delivery, quality, NPS), technical fit (capability gap, roadmap
+    alignment), risk (cyber, geographic, regulatory, ESG), and opportunity (consolidation, expansion,
+    renegotia...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/vendor-analysis/SKILL.md
+- file: vallor-vendor-consolidation.md
+  name: vendor-consolidation
+  description: Identifies consolidation opportunities across the active vendor base — overlapping scopes,
+    dual-source savings, single-source risk that should be split. Cross-walks spend data, category data,
+    and vendor analyses to produce a consolidation register with recommended moves (consolidate from N
+    to M supp...
+  source: https://github.com/BoardAI/vallor-plugins/blob/main/vallor/skills/vendor-consolidation/SKILL.md

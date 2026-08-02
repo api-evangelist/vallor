@@ -1,0 +1,156 @@
+# Vallor
+
+> Vallor is the AI coworker for procurement, legal, and sales teams. Val reads every contract, watches your ERP, and answers in plain English with citations back to the source. Live in 5 minutes. Audit-ready on day one.
+
+## What Vallor does
+
+- Reads, redlines, and negotiates contracts against your playbook.
+- Monitors obligations, renewals, SLAs, and rebates against live ERP and AP data.
+- Answers natural-language questions across every agreement, with citations to the source clause.
+- Plugs into 1000+ systems including SAP, NetSuite, Snowflake, Salesforce, Ironclad, Icertis, DocuSign, and Slack.
+
+## Who it is for
+
+- Procurement leaders consolidating spend visibility across fragmented contracts.
+- Legal teams that want faster review cycles without losing audit trails.
+- Sales operations teams that need fast answers on customer agreements.
+- Finance and operations leaders chasing the 9.2 percent of annual contract value lost to value leakage.
+
+## Trust and security
+
+- SOC 2 Type II, GDPR. Data stays in your tenant.
+- Customer data stays in the customer tenant.
+- Every Val answer carries source citations and an immutable audit trail.
+
+## Key pages
+
+- Home: https://vallor.ai/
+- Blog: https://vallor.ai/blog
+- Case studies: https://vallor.ai/case-studies
+- Resources: https://vallor.ai/resources
+
+## Contact
+
+- Book a demo: https://vallor.ai/#demo
+- Company: Board AI, Inc. (d/b/a Vallor)
+
+## Blog posts
+
+- [Try It Yourself: An Interactive Tour of Contract Review Math](https://vallor.ai/blog/interactive-contract-review-roi-calculator): Sliders, tabs, and a live ROI calculator embedded in a blog post. Move the numbers and see what changes for your legal team.
+- [Inside the Vallor Context Layer: Architecture, Performance, and Tradeoffs](https://vallor.ai/blog/inside-vallor-context-layer-architecture): A deep technical walkthrough of how Vallor builds and serves the contract intelligence layer. With benchmarks, code samples, and the boring details that actually matter.
+- [The Hidden Cost of Manual Contract Review: A 2026 Field Report](https://vallor.ai/blog/hidden-cost-manual-contract-review-2026): We analyzed 4,200 contract reviews across 18 enterprise legal teams. The findings will change how you staff your CLM rollout.
+- [The Enterprise Buyer's Guide to AI Contract Management](https://vallor.ai/blog/enterprise-buyers-guide-ai-contract-management): A practical evaluation guide for enterprise procurement and legal teams comparing AI contract management platforms.
+- [5 Contract Risks Every Procurement Team Misses](https://vallor.ai/blog/5-contract-risks-procurement-teams-miss): Auto-renewals, uncapped exposure, weak SLAs, data obligations, and untracked MFN language are the quiet risks that leak contract value.
+- [How AI is Transforming Contract Lifecycle Management](https://vallor.ai/blog/ai-transforming-contract-lifecycle-management): AI is changing CLM from a workflow and repository category into an intelligence and execution layer for contracts.
+
+## Resources
+
+- [Vallor QuickBooks Integration](https://vallor.ai/resources/vallor-quickbooks-integration): Connect QuickBooks finance context to Vallor so small and mid-market teams can reconcile contract terms with invoices and payments.
+- [Vallor Microsoft 365 Integration](https://vallor.ai/resources/vallor-microsoft-365-integration): Connect Microsoft 365, Outlook, Teams, SharePoint, and OneDrive context to Vallor contract intelligence.
+- [Vallor Slack Integration](https://vallor.ai/resources/vallor-slack-integration): Connect Slack to Vallor so contract questions, approvals, and obligation alerts reach the teams where work already happens.
+- [Vallor Google Drive Integration](https://vallor.ai/resources/vallor-google-drive-integration): Connect Google Drive contract folders to Vallor so legacy agreements become searchable, cited, and monitored.
+- [Vallor Docusign Integration](https://vallor.ai/resources/vallor-docusign-integration): Connect Docusign agreements and envelope activity to Vallor so signed contracts become actionable contract intelligence.
+- [Vallor Salesforce Integration](https://vallor.ai/resources/vallor-salesforce-integration): Connect Salesforce accounts, opportunities, and customer context to Vallor for contract review, revenue terms, and renewal intelligence.
+- [Vallor NetSuite Integration](https://vallor.ai/resources/vallor-netsuite-integration): Connect NetSuite vendor, customer, billing, and finance context to Vallor's contract intelligence layer.
+- [Vallor Oracle Procurement Integration](https://vallor.ai/resources/vallor-oracle-procurement-integration): Connect Oracle procurement data to Vallor contract intelligence for supplier contracts, obligations, renewals, and spend context.
+- [Vallor Coupa Integration](https://vallor.ai/resources/vallor-coupa-integration): Connect Coupa supplier and spend context to Vallor so procurement can see contract terms beside purchasing activity.
+- [Vallor SAP Ariba Integration](https://vallor.ai/resources/vallor-sap-ariba-integration): Connect SAP Ariba sourcing and procurement context to Vallor contract intelligence for supplier obligations, renewals, and cited answers.
+- [Contract Obligation Tracking Software](https://vallor.ai/resources/contract-obligation-tracking-software): Contract obligation tracking software extracts duties from agreements and monitors whether the business is meeting or receiving them.
+- [Auto-Renewal Tracking](https://vallor.ai/resources/auto-renewal-tracking): Auto-renewal tracking identifies renewal clauses, notice windows, owners, price changes, and cancellation deadlines before they become spend leakage.
+- [AI Supplier Contract Onboarding](https://vallor.ai/resources/ai-supplier-contract-onboarding): AI supplier contract onboarding turns signed supplier agreements into searchable metadata, obligations, owners, and workflow triggers.
+- [AI Vendor Contract Review](https://vallor.ai/resources/ai-vendor-contract-review): AI vendor contract review helps procurement find commercial, operational, security, and renewal risks before signature.
+- [AI DPA Review](https://vallor.ai/resources/ai-dpa-review): AI DPA review checks data roles, subprocessors, security duties, cross-border transfers, audit rights, and breach notice language.
+- [AI SOW Review](https://vallor.ai/resources/ai-sow-review): AI SOW review checks deliverables, dependencies, acceptance criteria, timeline, fees, and mismatch against the governing MSA.
+- [AI NDA Review](https://vallor.ai/resources/ai-nda-review): AI NDA review accelerates confidentiality review by checking term, scope, residuals, exclusions, permitted disclosures, and return obligations.
+- [AI MSA Review](https://vallor.ai/resources/ai-msa-review): AI MSA review compares master services agreements against a playbook, flags risk, extracts terms, and proposes redlines.
+- [Contract Management for Financial Services](https://vallor.ai/resources/contract-management-for-financial-services): Regulated institutions manage third-party risk, outsourcing agreements, right-to-audit clauses, and exam-ready contract evidence. See how Vallor surfaces these obligations with cited answers.
+- [Contract Management for Healthcare](https://vallor.ai/resources/contract-management-for-healthcare): Healthcare teams manage BAAs, DPAs, PHI-handling duties, breach-notification windows, and payer-provider agreements. See how Vallor surfaces these obligations with cited evidence.
+- [Contract Management for Manufacturing](https://vallor.ai/resources/contract-management-for-manufacturing): Manufacturers manage supply agreements, price-escalation and commodity-adjustment clauses, quality and warranty obligations, tooling ownership, and supplier concentration risk. See how Vallor surfaces these with cited answers.
+- [AI Contract Management for Contract Managers](https://vallor.ai/resources/ai-contract-management-for-contract-managers): Contract managers need one operating layer for intake, metadata, obligations, renewals, playbooks, and stakeholder follow-up.
+- [AI Contract Management for Procurement Analysts](https://vallor.ai/resources/ai-contract-management-for-procurement-analysts): Procurement analysts need fast answers from messy contracts so they can support category strategy and supplier decisions.
+- [AI Contract Management for Finance Teams](https://vallor.ai/resources/ai-contract-management-for-finance-teams): Finance teams need contract terms connected to invoices, revenue schedules, rebates, payment terms, and renewal exposure.
+- [AI Contract Management for Sales Teams](https://vallor.ai/resources/ai-contract-management-for-sales-teams): Sales and RevOps teams need contract terms, renewal commitments, approvals, and revenue obligations visible without chasing legal.
+- [AI Contract Review for Legal Teams](https://vallor.ai/resources/ai-contract-review-for-legal-teams): Legal teams need faster first-pass review without losing control of legal judgment, precedent, and negotiation posture.
+- [AI Contract Management for Procurement](https://vallor.ai/resources/ai-contract-management-for-procurement): Heads of procurement need contract intelligence that ties supplier terms to spend, obligations, renewals, and sourcing decisions.
+- [CLM Implementation Playbook](https://vallor.ai/resources/clm-implementation-playbook): A step-by-step guide to launching AI contract management with stakeholder alignment, proof-of-value design, and post-signature controls.
+
+## Comparisons
+
+- [Vallor vs Zip: Contract Intelligence vs Procurement Orchestration](https://vallor.ai/compare/vallor-vs-zip-procurement): Zip orchestrates the procurement request. Vallor reads what is inside the contracts those requests produce. Here is where each fits, and why teams often run both.
+- [Vallor vs Evisort: Independent AI vs Workday's Suite](https://vallor.ai/compare/vallor-vs-evisort): Evisort is now Workday Contract Intelligence. Compare it to Vallor on scope, ecosystem lock-in, AI extraction, where it lives, and roadmap control.
+- [Vallor vs Harvey: Legal AI Assistant vs Contract Ops](https://vallor.ai/compare/vallor-vs-harvey): Harvey is a legal AI assistant for research, drafting, and diligence. Vallor is an AI coworker for the contract portfolio, renewals, obligations, and vendor risk. Different categories, honest map.
+- [Vallor vs Ivo: Post-Signature vs Contract Review](https://vallor.ai/compare/vallor-vs-ivo): Ivo redlines contracts in Word before they get signed. Vallor reads every signed contract and tracks obligations, renewals, and spend across legal, procurement, and finance.
+- [Vallor vs Spellbook: Drafting Tool vs Portfolio Intelligence](https://vallor.ai/compare/vallor-vs-spellbook): Spellbook drafts and reviews contracts in Microsoft Word. Vallor reads, monitors, and answers across every signed contract. Compared on scope, deployment, post-signature management, integrations, and pricing.
+- [CLM vs Procurement Platform (Coupa, Ariba): Where They Overlap](https://vallor.ai/compare/clm-vs-procurement-platform): CLM vs Procurement Platform (Coupa, Ariba): Where They Overlap compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Build vs Buy: AI Contract Management for Enterprise](https://vallor.ai/compare/build-vs-buy-ai-contract-management): Build vs Buy: AI Contract Management for Enterprise compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [AI Contract Review vs Manual Review: Time, Cost, Accuracy Compared](https://vallor.ai/compare/ai-contract-review-vs-manual-review): AI Contract Review vs Manual Review: Time, Cost, Accuracy Compared compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [CLM vs Contract Repository: Which Does Your Team Need?](https://vallor.ai/compare/clm-vs-contract-repository): CLM vs Contract Repository: Which Does Your Team Need? compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [AI-Native CLM vs Traditional CLM: Side-by-Side Comparison](https://vallor.ai/compare/ai-clm-vs-traditional-clm): AI-Native CLM vs Traditional CLM: Side-by-Side Comparison compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Top 10 LinkSquares Alternatives (Legal + Procurement)](https://vallor.ai/compare/linksquares-alternatives): Top 10 LinkSquares Alternatives (Legal + Procurement) compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Top 10 Agiloft Alternatives for Procurement Teams](https://vallor.ai/compare/agiloft-alternatives): Top 10 Agiloft Alternatives for Procurement Teams compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Top 10 DocuSign CLM Alternatives (and Why Teams Are Switching)](https://vallor.ai/compare/docusign-clm-alternatives): Top 10 DocuSign CLM Alternatives (and Why Teams Are Switching) compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Top 10 Icertis Alternatives for Enterprise Contract Management](https://vallor.ai/compare/icertis-alternatives): Top 10 Icertis Alternatives for Enterprise Contract Management compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Top 10 Ironclad Alternatives for 2026 (AI-Native + Legacy CLM)](https://vallor.ai/compare/ironclad-alternatives): Top 10 Ironclad Alternatives for 2026 (AI-Native + Legacy CLM) compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs Coupa Contracts: Best for Procurement](https://vallor.ai/compare/vallor-vs-coupa-contracts): Vallor vs Coupa Contracts: Best for Procurement compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs SpotDraft: AI-Native CLM](https://vallor.ai/compare/vallor-vs-spotdraft): Vallor vs SpotDraft: AI-Native CLM compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs Conga (Apttus): Procurement Workflows](https://vallor.ai/compare/vallor-vs-conga): Vallor vs Conga (Apttus): Procurement Workflows compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs ContractPodAi](https://vallor.ai/compare/vallor-vs-contractpodai): Vallor vs ContractPodAi compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs Sirion: Enterprise AI Contract Management](https://vallor.ai/compare/vallor-vs-sirion): Vallor vs Sirion: Enterprise AI Contract Management compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs Agiloft: AI Coworker vs Configurable CLM](https://vallor.ai/compare/vallor-vs-agiloft): Vallor vs Agiloft: AI Coworker vs Configurable CLM compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs DocuSign CLM (formerly SpringCM)](https://vallor.ai/compare/vallor-vs-docusign-clm): Vallor vs DocuSign CLM (formerly SpringCM) compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs Icertis: Onboard in 5 Minutes vs 6-Month Implementation](https://vallor.ai/compare/vallor-vs-icertis): Vallor vs Icertis: Onboard in 5 Minutes vs 6-Month Implementation compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+- [Vallor vs Ironclad: AI Coworker vs Legacy CLM](https://vallor.ai/compare/vallor-vs-ironclad): Vallor vs Ironclad: AI Coworker vs Legacy CLM compared across implementation time, AI depth, procurement fit, legal workflow fit, and enterprise readiness.
+
+## Glossary
+
+- [Shadow Procurement: What is shadow procurement?](https://vallor.ai/glossary/what-is-shadow-procurement): Shadow procurement is buying activity that happens outside approved procurement systems, policies, or contract controls.
+- [Playbook In Contract Negotiation: What is playbook in contract negotiation?](https://vallor.ai/glossary/what-is-a-playbook-in-contract-negotiation): A contract negotiation playbook defines preferred positions, fallback language, approval rules, and escalation paths for key clauses.
+- [AI Redline: What is AI redline?](https://vallor.ai/glossary/what-is-an-ai-redline): An AI redline is a suggested contract edit generated from a playbook, precedent, risk rule, or negotiation position.
+- [Clause Extraction: What is clause extraction?](https://vallor.ai/glossary/what-is-clause-extraction): Clause extraction identifies and labels contract provisions such as indemnity, liability, renewal, data protection, audit rights, and termination.
+- [Document AI: What is document AI?](https://vallor.ai/glossary/what-is-document-ai): Document AI extracts, classifies, summarizes, and reasons over documents using machine learning, OCR, language models, and workflow rules.
+- [Context Layer For Contracts: What is context layer for contracts?](https://vallor.ai/glossary/what-is-a-context-layer-for-contracts): A context layer for contracts is the structured data and retrieval layer that connects clauses, obligations, counterparties, documents, and business systems.
+- [Contract RAG: What is contract RAG?](https://vallor.ai/glossary/what-is-contract-rag): Contract RAG is retrieval-augmented generation tuned for agreements, where an AI system retrieves contract clauses and metadata before answering.
+- [AI Agent For Procurement: What is AI agent for procurement?](https://vallor.ai/glossary/what-is-an-ai-agent-for-procurement): An AI agent for procurement monitors suppliers, contracts, spend, and workflow context to recommend or execute procurement tasks.
+- [Service-as-software: What is service-as-software?](https://vallor.ai/glossary/what-is-service-as-software): Service-as-software is software that delivers an operational outcome traditionally handled by people or services, not only a tool users operate.
+- [AI Coworker: What is AI coworker?](https://vallor.ai/glossary/what-is-an-ai-coworker): An AI coworker is software that performs ongoing work with context, memory, and action, rather than only answering one-off prompts.
+- [Mutual NDA: What is mutual NDA?](https://vallor.ai/glossary/what-is-a-mutual-nda): A mutual NDA protects confidential information shared by both parties, rather than only one disclosing party.
+- [Most Favored Nation Clause: What is most favored nation clause?](https://vallor.ai/glossary/what-is-most-favored-nation-clause): A most favored nation clause gives one customer the right to terms as favorable as those offered to another comparable customer.
+- [Termination For Convenience Clause: What is termination for convenience clause?](https://vallor.ai/glossary/what-is-a-termination-for-convenience-clause): A termination for convenience clause lets a party end a contract without cause, usually with notice and sometimes a fee.
+- [Auto-renewal Clause: What is auto-renewal clause?](https://vallor.ai/glossary/what-is-an-auto-renewal-clause): An auto-renewal clause extends a contract for another term unless a party cancels within a defined notice window.
+- [Indemnification Clause: What is indemnification clause?](https://vallor.ai/glossary/what-is-an-indemnification-clause): An indemnification clause requires one party to defend or compensate the other for specified third-party claims, losses, or liabilities.
+- [Limitation Of Liability Clause: What is limitation of liability clause?](https://vallor.ai/glossary/what-is-a-limitation-of-liability-clause): A limitation of liability clause caps or excludes the damages one party can recover from the other after a breach.
+- [Force Majeure Clause: What is force majeure clause?](https://vallor.ai/glossary/what-is-a-force-majeure-clause): A force majeure clause excuses or delays performance when extraordinary events outside a party's control prevent contractual obligations.
+- [Evergreen Clause: What is evergreen clause?](https://vallor.ai/glossary/what-is-an-evergreen-clause): An evergreen clause automatically renews a contract unless one party gives notice before a stated deadline.
+- [MSA vs SOW: What is the difference?](https://vallor.ai/glossary/msa-vs-sow): An MSA sets reusable legal terms for a relationship, while an SOW defines a specific project, deliverable, or purchase under those terms.
+- [Purchase Order: What is purchase order?](https://vallor.ai/glossary/what-is-a-purchase-order): A purchase order is a buyer-issued document that authorizes a purchase and records item, quantity, price, delivery, and payment terms.
+- [SOW: What is SOW?](https://vallor.ai/glossary/what-is-a-sow): A statement of work defines the project scope, deliverables, timeline, fees, assumptions, and acceptance criteria under a broader agreement.
+- [BAA: What is BAA?](https://vallor.ai/glossary/what-is-a-baa): A business associate agreement is a healthcare contract required under HIPAA when a vendor handles protected health information for a covered entity.
+- [DPA: What is DPA?](https://vallor.ai/glossary/what-is-a-dpa): A data processing agreement governs how a processor handles personal data on behalf of a controller or customer.
+- [NDA: What is NDA?](https://vallor.ai/glossary/what-is-an-nda): A non-disclosure agreement is a contract that controls how confidential information can be shared, used, protected, and returned or destroyed.
+- [MSA: What is MSA?](https://vallor.ai/glossary/what-is-an-msa): A master services agreement is a framework contract that sets the legal and commercial terms for future work between two parties.
+- [Vendor Risk Management: What is vendor risk management?](https://vallor.ai/glossary/what-is-vendor-risk-management): Vendor risk management identifies and controls the operational, financial, legal, security, and compliance risks created by third-party suppliers.
+- [Spend Visibility: What is spend visibility?](https://vallor.ai/glossary/what-is-spend-visibility): Spend visibility is the ability to see what an organization buys, from whom, under what terms, and how that spend changes over time.
+- [Procure-to-pay: What is procure-to-pay?](https://vallor.ai/glossary/what-is-procure-to-pay): Procure-to-pay is the operational procurement process from purchase requisition through purchase order, receipt, invoice, and payment.
+- [Source-to-pay: What is source-to-pay?](https://vallor.ai/glossary/what-is-source-to-pay): Source-to-pay is the procurement process that covers sourcing, supplier selection, contracting, purchasing, invoicing, and payment.
+- [Contract Automation: What is contract automation?](https://vallor.ai/glossary/what-is-contract-automation): Contract automation uses rules, templates, integrations, and AI to reduce manual work across contract intake, review, routing, signature, and monitoring.
+- [Contract Analytics: What is contract analytics?](https://vallor.ai/glossary/what-is-contract-analytics): Contract analytics is the practice of measuring patterns, risks, obligations, and business outcomes across a portfolio of agreements.
+- [Contract Metadata: What is contract metadata?](https://vallor.ai/glossary/what-is-contract-metadata): Contract metadata is the structured information that describes an agreement, such as counterparty, term, value, governing law, owner, dates, and clause positions.
+- [Contract Data Extraction: What is contract data extraction?](https://vallor.ai/glossary/what-is-contract-data-extraction): Contract data extraction turns unstructured agreement text into structured fields such as parties, dates, fees, clauses, obligations, and renewal windows.
+- [CLM Software: What is CLM software?](https://vallor.ai/glossary/what-is-clm-software): CLM software helps organizations manage contract creation, approval, negotiation, signature, storage, renewal, and reporting workflows.
+- [Contract Repository: What is contract repository?](https://vallor.ai/glossary/what-is-a-contract-repository): A contract repository is a searchable system used to store executed agreements, metadata, amendments, and related documents.
+- [Obligation Management: What is obligation management?](https://vallor.ai/glossary/what-is-obligation-management): Obligation management is the process of extracting, assigning, tracking, and proving completion of duties created by a contract.
+- [Contract Redlining: What is contract redlining?](https://vallor.ai/glossary/what-is-contract-redlining): Contract redlining is the process of marking proposed edits in an agreement so parties can negotiate terms and track changes.
+- [AI Contract Review: What is AI contract review?](https://vallor.ai/glossary/what-is-ai-contract-review): AI contract review uses contract-specific models and rules to identify clauses, compare terms to a playbook, flag risk, and suggest next steps.
+- [Contract Intelligence: What is contract intelligence?](https://vallor.ai/glossary/what-is-contract-intelligence): Contract intelligence is the structured understanding of contract language, metadata, obligations, risk, and business context so teams can ask questions and take action.
+- [Contract Lifecycle Management: What is contract lifecycle management?](https://vallor.ai/glossary/what-is-contract-lifecycle-management): Contract lifecycle management is the process of creating, reviewing, approving, signing, storing, tracking, and renewing agreements from request through expiration.
+
+## Benchmarks
+
+- [AI Contract Extraction Accuracy by Clause Type, 2026](https://vallor.ai/benchmarks/ai-extraction-accuracy-benchmark): AI extraction accuracy should be measured by clause family, document quality, citation quality, and business usefulness. A single blended accuracy score hides the risk.
+- [Which Clauses Get Redlined the Most (and Why)](https://vallor.ai/benchmarks/redline-frequency-benchmark): Redlines cluster around a small set of clauses: liability, indemnity, termination, data protection, payment, audit, service levels, and renewal language.
+- [Contract Cycle Time: 2026 Industry Benchmarks](https://vallor.ai/benchmarks/contract-cycle-time-benchmark): Cycle time is a portfolio metric, not only a legal metric. The delays usually sit in context gathering, routing, business review, and obligation logging.
+- [Vendor Concentration Risk: Benchmarks Across F500 Procurement](https://vallor.ai/benchmarks/vendor-concentration-risk-benchmark): Vendor concentration risk becomes visible when contracts, spend, business criticality, and renewal timelines are joined. Without that context, a supplier can look harmless in a repository and critical in operations.
+- [Auto-Renewal Clauses: Prevalence by Industry (and the Hidden Cost)](https://vallor.ai/benchmarks/auto-renewal-clause-prevalence-benchmark): Auto-renewal clauses are small paragraphs with large spend consequences. The hidden cost appears when cancellation windows, price escalators, and business owners are not tracked together.
+- [The 10 Most-Commonly-Missed Contract Obligations](https://vallor.ai/benchmarks/most-common-missed-obligations-benchmark): The most missed obligations are rarely exotic. They are everyday renewal, rebate, SLA, insurance, audit, security, and reporting commitments that lack an accountable owner.
+- [Average Contract Review Time by Industry, 2026](https://vallor.ai/benchmarks/average-contract-review-time-by-industry): Contract review time varies by industry because risk, regulation, approval depth, and counterparty complexity vary. The practical benchmark is time to first useful redline, not time to signature.
+- [The State of Contract Management 2026](https://vallor.ai/benchmarks/state-of-contract-management-2026): Across enterprise teams, the biggest contract management gap is not signing. It is value realization after signature: obligations missed, renewals unmanaged, risk fields unstructured, and spend context disconnected from contracts.

@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.vallor.ai/trust
+url: https://www.vallor.ai/trust
+live_trust_center: https://app.vanta.com/procuro/trust/n9dbysuklro4p9x7g2v94
+hosted_on: Vanta
+certifications:
+- SOC 2 Type II
+- GDPR
+contact: admin@vallor.ai
+details:
+- Live Trust Center on Vanta with real-time controls, monitoring evidence, sub-processor list, DPA, and document requests.
+- SOC 2 report available under NDA (one business day turnaround).
+- Customer data stays in the customer tenant; read-only ingestion, tenant isolation, cited answers, immutable audit trail.
+evidence:
+- source: https://www.vallor.ai/trust
+  keywords:
+  - soc 2 type ii
+  - gdpr
+  - trust center
+  - vanta

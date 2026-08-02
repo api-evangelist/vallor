@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.vallor.ai
+host: https://www.vallor.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on www.vallor.ai.
+  The site does publish /llms.txt (200, captured in llms/vallor-llms.txt),
+  /robots.txt (200, disallows /admin and /api), and /sitemap.xml (200).
+  An api.vallor.ai host exists (AWS API Gateway behind CloudFront, 404 JSON
+  at root) but exposes no public discovery surface.

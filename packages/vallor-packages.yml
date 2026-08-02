@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search + registry metadata for the @vallor scope
+packages:
+- language: javascript
+  registry: npm
+  name: '@vallor/openwork-agent'
+  url: https://www.npmjs.com/package/@vallor/openwork-agent
+  install: npm install @vallor/openwork-agent
+  official: true
+  notes: >-
+    Published under the first-party @vallor npm scope (maintainer
+    antonio_gonc, antonio@vallor.ai). A tool to initialize and manage AI
+    agent configuration for a project - agent tooling, not an API client
+    SDK. Repository: https://github.com/antondkg/openwork-agent.
+notes: >-
+  No first-party API client SDKs found on npm, PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, or crates.io (PyPI 'vallor' is 404).
+  Vallor's primary developer-facing distribution is the Claude Code /
+  Cowork plugin marketplace at https://github.com/BoardAI/vallor-plugins
+  (32 skills + 9 background agents, captured in skills/).
